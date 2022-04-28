@@ -4,7 +4,7 @@
   "description": "An example task manager project from Udemy's the complete Node.js Developer course.",
   "main": "index.js",
   "scripts": {
-    "star": "node src/index.js",
+    "start": "node src/index.js",
     "dev": "env-cmd -f ./config/dev.env nodemon -L src/index.js"
   },
   "author": "Wasin Waeosri (plynoi@gmail.com)",
