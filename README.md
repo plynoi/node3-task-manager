@@ -40,6 +40,9 @@ The technologies and services under the hood are as follows:
     ```
     $> npm run start
     ```
+## <a id="heroku"></a>Heroku Deployment
+
+The application is hosted on [Heroku](https://www.heroku.com/) Cloud Application Platform at [https://plynoi-task-manager.herokuapp.com/](https://plynoi-task-manager.herokuapp.com/) page.
 
 ## <a id="author"></a>Author
 
