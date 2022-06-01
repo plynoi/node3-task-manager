@@ -1,8 +1,8 @@
 # Node.js Task Manager Example
-- version: 1.0.0
-- Last update: April 2022
+- version: 1.0.2
+- Last update: June 2022
 - Environment: Windows WSL
-- Prerequisite: [Docker and Internet connection](#prerequisite)
+- Prerequisite: [Node.js, MongoDB, SendGrip API](#prerequisite)
 
 ## <a id="intro"></a>Introduction
 
@@ -20,7 +20,7 @@ The technologies and services under the hood are as follows:
 3. [MongoDB](https://www.mongodb.com/) software.
 4. [SendGrid API](hhttps://sendgrid.com/) account.
 
-## <a id="running"></a>How To Run 
+## <a id="running"></a>How To Run the Application
 
 1. Install MongoDB on your machine.
 2. SendGrid API Access Token. Please see more detail on these [API Keys](https://docs.sendgrid.com/ui/account-and-settings/api-keys) and [Authenticaion](https://docs.sendgrid.com/for-developers/sending-email/authentication) pages.
@@ -40,6 +40,27 @@ The technologies and services under the hood are as follows:
     ```
     $> npm run start
     ```
+
+## <a id="test"></a>How To Run the Test Cases
+
+1. Install MongoDB on your machine.
+2. Create a file name ```test.env``` in the ```config``` folder with the following content:
+    ```
+    PORT=3000
+    SENDGRID_API_KEY=SendGrid_API_Key
+    SENDGRID_YOUR_EMAIL=Your_email
+    JWT_SECRET=Your_authenticaion_secret_string
+    MONGODB_URL=mongodb://127.0.0.1:27017/task-manager-api-test
+    ```
+4. Install application dependencies with the following command.
+    ```
+    $> npm install
+    ```
+5. Once the installation process is successful, run the test cases with the following command
+    ```
+    $> npm test
+    ```
+    
 ## <a id="heroku"></a>Heroku Deployment
 
 The application is hosted on [Heroku](https://www.heroku.com/) Cloud Application Platform at [https://plynoi-task-manager.herokuapp.com/](https://plynoi-task-manager.herokuapp.com/) page.

@@ -1,4 +1,6 @@
 config/dev.env
+config/test.env
 .env
 node_modules/
 RUN.md
+testIdeas.txt

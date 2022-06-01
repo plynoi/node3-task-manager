@@ -1,16 +1,22 @@
 {
   "name": "udemy-node3-task-manager",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An example task manager project from Udemy's the complete Node.js Developer course.",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "env-cmd -f ./config/dev.env nodemon -L src/index.js"
+    "dev": "env-cmd -f ./config/dev.env nodemon -L src/index.js",
+    "test": "env-cmd -f ./config/test.env jest --watch --runInBand --detectOpenHandles"
   },
   "author": "Wasin Waeosri (plynoi@gmail.com)",
   "license": "MIT",
   "homepage": "https://github.com/plynoi/node3-task-manager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plynoi/node3-task-manager"
+  },
   "devDependencies": {
+    "@types/jest": "^27.4.1",
     "@types/node": "^17.0.2",
     "@types/validator": "^13.7.1",
     "env-cmd": "^10.1.0",
@@ -21,11 +27,16 @@
     "bcryptjs": "^2.4.3",
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
+    "jest": "^26.6.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.2.2",
     "mongoose": "^6.1.6",
     "multer": "^1.4.4",
     "sharp": "^0.30.3",
+    "supertest": "^6.2.3",
     "validator": "^13.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
