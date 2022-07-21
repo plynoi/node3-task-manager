@@ -1,6 +1,6 @@
 # Node.js Task Manager Example
 - version: 1.0.2
-- Last update: June 2022
+- Last update: July 2022
 - Environment: Windows WSL
 - Prerequisite: [Node.js, MongoDB, SendGrip API](#prerequisite)
 
