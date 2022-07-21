@@ -20,7 +20,7 @@ The technologies and services under the hood are as follows:
 3. [MongoDB](https://www.mongodb.com/) software.
 4. [SendGrid API](hhttps://sendgrid.com/) account.
 
-## <a id="running"></a>How To Run the Application
+## <a id="running"></a>How To Run the Application in Development Mode
 
 1. Install MongoDB on your machine.
 2. SendGrid API Access Token. Please see more detail on these [API Keys](https://docs.sendgrid.com/ui/account-and-settings/api-keys) and [Authenticaion](https://docs.sendgrid.com/for-developers/sending-email/authentication) pages.
@@ -38,7 +38,7 @@ The technologies and services under the hood are as follows:
     ```
 5. Once the installation process is successful, run the application with the following command
     ```
-    $> npm run start
+    $> npm run dev
     ```
 
 ## <a id="test"></a>How To Run the Test Cases
