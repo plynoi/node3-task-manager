@@ -30,7 +30,7 @@
     "jest": "^26.6.0",
     "jsonwebtoken": "^9.0.0",
     "mongodb": "^4.2.2",
-    "mongoose": "^6.4.6",
+    "mongoose": "^6.11.3",
     "multer": "1.4.5-lts.1",
     "sharp": "^0.30.5",
     "supertest": "^6.2.3",
