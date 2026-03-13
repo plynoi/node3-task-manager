@@ -5,3 +5,5 @@ node_modules/
 RUN.md
 testIdeas.txt
 mongodb_learn.js
+package.json.bk
+package-lock.json.bk
